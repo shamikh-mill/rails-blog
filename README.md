@@ -43,3 +43,6 @@ rails db:migrate
 ````
 rails server
 ````
+6. Add to Heroku
+
+7. Set up database 
