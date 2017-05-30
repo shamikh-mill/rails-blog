@@ -36,4 +36,10 @@ rails db:migrate
 ````
 
 3. Manage routes for the model in routes.rb 
+
 4. Generate a controller for the model 
+
+5. Test with 
+````
+rails server
+````
