@@ -57,6 +57,16 @@ rails db:migrate
 
 7. Set up database 
 
+````
+brew install postgresql
+gem install pg -v '0.20.0'
+bundle install
+
+# After deploying to Heroku: 
+heroku run rake db:migrate
+````  
+Should work then!   
+
 https://code.tutsplus.com/tutorials/zero-to-sixty-creating-and-deploying-a-rails-app-in-under-an-hour--net-8252
 
 http://guides.rubyonrails.org/getting_started.html
