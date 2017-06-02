@@ -43,6 +43,16 @@ rails db:migrate
 ````
 rails server
 ````
+
+May need to do: 
+````
+bundle install
+# or 
+bundle update
+# and
+rails db:migrate
+````
+
 6. Add to Heroku
 
 7. Set up database 
