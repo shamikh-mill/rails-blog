@@ -22,10 +22,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+- https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1
+- Building a new Rails app with Postgres for integration with Heroku (sqlite is not supported): 
+````rails new myapp --database=postgresql
+# might need: 
+bundle exec rake db:create
+# use netstat and kill -9 (pid) to clear ports 
+````
+
+
+
+
 
 Steps 
 1. Create a model (article, comments, etc.) with: 
 ````
+rails generate scaffold Todo title:string notes:text
+# or 
 rails generate model Comment commenter:string body:text article:references
 ````
 This will show up in the models directory. 
